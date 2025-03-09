@@ -1,6 +1,6 @@
 # DocWizard 🧙‍♂️
 
-DocWizard adalah sebuah script Python ajaib yang memudahkan Anda menggabungkan beberapa file DOCX menjadi satu dengan menggunakan template dan data dari file Excel. Proyek ini dirancang untuk menghasilkan dokumen dalam jumlah besar secara otomatis.
+DocWizard adalah sebuah script Python ajaib yang memudahkan Anda menggabungkan beberapa file DOCX menjadi satu dengan menggunakan template dan data dari file Excel. Proyek ini dirancang untuk menghasilkan dokumen secara otomatis.
 
 ## Fitur Utama
 
@@ -25,19 +25,6 @@ DocWizard adalah sebuah script Python ajaib yang memudahkan Anda menggabungkan b
    ```bash
    git clone https://github.com/username/DocWizard.git
    cd DocWizard
-## Buat environment virtual (opsional):
-```bash
-python -m venv venv
-```
-# Aktifkan environment virtual
-# Windows:
-```bash
-venv\Scripts\activate
-```
-# macOS/Linux:
-```bash
-source venv/bin/activate
-```
 # Install dependensi:
 ```bash
 pip install -r requirements.txt
