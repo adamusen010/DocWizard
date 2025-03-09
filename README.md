@@ -18,13 +18,13 @@ DocWizard adalah sebuah script Python ajaib yang memudahkan Anda menggabungkan b
   - `docxtpl`
   - `pandas`
   - `docxcompose`
+  - `time`
 
 ## Instalasi
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/DocWizard.git
-   cd DocWizard
+   https://github.com/adamusen010/DocWizard.git
 # Install dependensi:
 ```bash
 pip install -r requirements.txt
@@ -36,20 +36,7 @@ Data.xlsx: File Excel yang berisi data untuk diisi ke template.
 Jalankan script:
 ```bash
 python script.py
+or
+py script.py
 ```
 Hasil dokumen yang telah digabungkan akan disimpan di folder Hasil_Dokumen.
-
-
-Template DOCX (Template.docx)
-Buat template DOCX dengan placeholder seperti ini:
-
-
-Nama: {{ nama }}
-Kontak: {{ Kontak }}
-
-Data Excel (Data.xlsx)
-File Excel harus memiliki kolom yang sesuai dengan placeholder di template:
-
-nama	Kontak	
-John	12345	
-Jane	67890	
